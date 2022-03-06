@@ -1,16 +1,6 @@
 # ScanBarCode
 
-##連續掃描條碼
+##發光文字
 
-![image](https://github.com/LinEven/Blin/blob/main/images/read.gif)
+![image](https://github.com/LinEven/BlinBlinTXT/blob/main/images/demo.gif)
 
-```HTML
-    <script language="javascript">
-      var input = document.getElementById("myInput");
-      input.addEventListener("keyup", function (event) {
-        if (event.keyCode === 13) {
-          event.preventDefault();
-          document.getElementById("myBtn").click();
-        }
-      });
-```
